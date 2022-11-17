@@ -1,0 +1,81 @@
+body{ background-color: black;
+    margin: 0;}
+    .container{ width: 100vw;
+    height: auto; 
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center; 
+margin: 20px;}
+.child{ height: 150px;
+        width: 150px;
+        margin: 10px;
+        background-color: green;
+        border: black 2px solid;}
+#box1:hover{ transition: background-color 0.5s ease ;
+    transform: translateX(10px);
+           background-color: red;
+           color: white;
+         }
+#box2:hover{ 
+    transition: background-color 0.5s ease-in-out ;
+    transform: translateX(-10px);
+                background-color: red;
+                color: white;}
+#box3:hover{ 
+    transition: background-color 0.5s ease-in-out ;
+    transform: translateY(-10px);
+                background-color: red;
+                color: white;}
+#box4:hover{ 
+    transition: background-color 0.5s ease-in-out ;
+    transform: translateY(10px);
+                background-color: red;
+                color: white;}
+#box5:hover{ 
+    transition: background-color 0.5s ease-in-out ;
+    transform:scale(170%);
+            background-color: red;
+            color: white; }
+#box6:hover{ 
+    transition: background-color 0.5s ease-in-out ;
+    transform: scale(70%);
+                background-color: red;
+                color: white;}
+#box7:hover{
+    transition: background-color 0.5s ease-in-out ;
+     border-radius: 50%;
+                background-color: red;
+                color: white;}
+#box8:hover{transition: background-color 0.5s ease-in-out ;
+     transform: translateX(-10px 10px);
+            color: white;
+            background-color: red;}
+#box9:hover{ transition: background-color 0.5s ease ;
+            height:180px;
+            background-color: red;
+            color: white;}
+#box10:hover{ transition: background-color 0.5s ease ;
+    transform:rotateZ(30deg);
+    background-color: red;
+    color: white;}
+
+@media screen (max-width: 374px;) {
+    .container{ display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .child{ width: 90px;
+        height: 90px;}
+ body{ align-content: center;}   
+}
+@media screen( min-width:375;)and(max-width: 800px;) { 
+    .container{ display: flex;
+        flex-wrap:wrap;
+        box-sizing: border-box;     
+    }
+    .child{ width: 90px;
+        height: 90px;}
+ body{ align-content: center;} 
+    
+}
