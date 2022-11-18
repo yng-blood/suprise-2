@@ -6,6 +6,7 @@ body{ background-color: black;
     flex-wrap: wrap;
     text-align: center;
     align-items: center; 
+        justify-content: center;
 margin: 20px;}
 .child{ height: 150px;
         width: 150px;
@@ -72,6 +73,10 @@ margin: 20px;}
         flex-wrap: wrap;
        
     }
+    body{ flex-wrap: wrap;
+    text-align: center;
+    align-items: center; 
+        justify-content: center;}
     .child{ width: 90px;
         height: 90px;}
  body{ align-content: center;}   
@@ -83,6 +88,8 @@ margin: 20px;}
     }
     .child{ width: 90px;
         height: 90px;}
- body{ align-content: center;} 
-    
+   body{ flex-wrap: wrap;
+    text-align: center;
+    align-items: center; 
+        justify-content: center;}
 }
