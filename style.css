@@ -55,9 +55,11 @@ margin: 20px;}
 #box8:hover{transition: background-color 0.5s ease-in-out ;
      transform: translateX(-10px 10px);
             color: white;
+    transform: scaleX(1.5);
             background-color: red;}
 #box9:hover{ transition: background-color 0.5s ease ;
             height:180px;
+    transform: scaleY(1.5);
             background-color: red;
             color: white;}
 #box10:hover{ transition: background-color 0.5s ease ;
